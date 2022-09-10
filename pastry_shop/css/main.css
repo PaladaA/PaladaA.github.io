@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*-----------MENU-----------------*/
+#menu{
+    width: 100%;
+    background-color: #cc0e15;
+}
+#menu ul{
+    list-style-type: none;
+    display: none;
+}
+#ikona:hover #menu ul{
+    display: block;
+}
+#menu ul li a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 13px 0px;
+    border-bottom: 1px solid #fff;
+    font-size: 20px;
+    font-family: 'Chonburi', cursive;
+    background-color: #cc0e15;
+}
+#menu ul li a:hover{
+    background-color: rgba(240, 130, 130, 0.55);
+}
+#ikona{
+    padding: 10px 0px;
+    text-align: right;
+}
+#ikona i{
+    font-size: 35px;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 25px;
+    
+}
+/*-------------HEADER--------------------*/
+.span_12_of_12{
+    text-align: center;
+}
+.header{
+    background-image: url(../img/pic.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 33rem;
+}
+.logo-slika{
+    position: absolute;
+    top: 3.7em;
+    left: .5em;
+    width: 50px;
+    height: 50px;
+}
+.header h1 a{
+    text-align: center;
+    padding: 15% 10%;
+    line-height: 21rem;
+    text-decoration: none;
+    color: #fff;
+    border: .3em solid #fff;
+    font-size: 1.5em;
+    font-family: 'Vidaloka', serif;
+    
+}
+.button{
+    width: 18rem;
+    display: block;
+    padding: .5em 0.5em;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 1.4em;
+    margin: .8em .1em .2em 2.4em;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Noto Serif', serif;
+    cursor: pointer;
+    text-transform: uppercase;
+    -webkit-box-shadow: 3px 3px 10px #313030;
+    box-shadow: 3px 3px 10px #313030;
+}
+.button:hover{
+    color: #c72222;
+    background-color: #fff;
+}
+/*-------------SLASTICE ZA SVAKO NEPCE--------------------*/
+.slastice{
+    background-color: #eee;
+    padding: 5% 5%;
+    text-align: center;
+    background-color: rgba(199, 34, 34, 0.55);
+}
+.slastice h2{
+    margin: 0em 0em 1.2em 0em;
+    font-family: 'Chonburi', cursive;
+    color: #481f1f;
+    font-size: 2.2em;
+    text-transform: uppercase;
+}
+.slastice h3{
+    margin: 0em 0em 1.2em 0em;
+    font-family: 'Chonburi', cursive;
+    color: #fff;
+    font-size: 2em;
+    
+}
+.slastice p{
+    padding: 0em 1em;
+    color: #3b3939;
+    font-size: 1.2rem;
+    font-family: 'Playfair Display', serif;
+}
+/*------------------NASE SLASTICE------------------*/
+.ns{
+    background-image: url(../img/pic3.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 5% 10% 5% 10%;
+    
+}
+.ns h2{
+    margin: 1em 0em;
+    font-family: 'Chonburi', cursive;
+    color: #481f1f;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+.ns h3{
+    margin: .6em 0em;
+    font-family: 'Chonburi', cursive;
+    color: #481f1f;
+    font-size: 2rem;
+}
+.ns h4{
+    margin: .5em 0em;
+    font-family: 'Chonburi', cursive;
+    color: rgba(199, 34, 34, 0.8);
+    font-size: 1.2rem;
+}
+.ns p{
+    margin: .5em 0em;
+    color: rgba(69, 69, 69, 0.94);
+    font-size: 1.1rem;
+}
+/*-vv ti je samo ona bg color od torti kolaca i ostalog tu nista nemoj stavljat;)--*/
+.vv{
+    background-color: rgba(238, 238, 238, 0.63);
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+/*------------------NASI RECEPTI---------------*/
+.recepti{
+    background-image: url(../img/3.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 5% 0%;
+    
+}
+.recepti h2{
+    margin: 1em 0em;
+    font-family: 'Chonburi', cursive;
+    color: #481f1f;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+/*-------------TIRAMISU(cili bijeli dio)----------*/
+.tiramisu{
+    padding: 10% 0%;
+}
+/*-------------TIRAMISU(samo recept)----------*/
+.tiramisu-recept{
+    padding: 5%;
+}
+.tiramisu-recept h3{
+    margin: 1em 0em;
+    font-family: 'Chonburi', cursive;
+    color: #481f1f;
+    font-size: 2em;
+    text-align: center;
+}
+.tiramisu-recept p{
+    color: #484646;
+    font-size: 1.2em;
+    text-align: justify;
+}
+/*-----------KAKO DO NAS----------------*/
+.kako{
+    padding: 5%;
+}
+.kako h3{
+    margin: 1em 0em;
+    font-family: 'Chonburi', cursive;
+    color: #481f1f;
+    font-size: 2em;
+    text-align: center;
+}
+.kako img{
+    padding: 10%;
+    position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 128px;
+  bottom: 0;
+  left: 60px;
+  right: 0;
+  height: 63px;
+  width: 350px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(199, 34, 34, 0.55);
+}
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 1.5em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: 'Chonburi', cursive;
+}
+
+.button2 {
+  background-color: rgba(199, 34, 34, 0.7);
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 1.3em;
+  font-family: 'Chonburi', cursive;
+  padding: 0.5em 1em;
+  transition: all 0.5s;
+  cursor: pointer;
+  text-transform: inherit;
+    margin-left: 25%;
+}
+
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button2 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button2:hover span {
+  padding-right: 25px;
+}
+
+.button2:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+/*----------FOOTER------------------*/
+.footer{
+    background-color: #481f1f;
+    color: #fff;
+    padding: 2% 0%;
+}
+.footer h4{
+    margin: 1em 0em;
+    font-family: 'Chonburi', cursive;
+    font-size: 1.3em;
+    text-align: center;
+}
+.footer p{
+    font-size: 1.2em;
+    text-align: center;
+}
+.footer div{
+    padding: 2% 9%;
+    text-align: center;
+}
+.footer .icon{
+    font-size: 1.6em;
+}

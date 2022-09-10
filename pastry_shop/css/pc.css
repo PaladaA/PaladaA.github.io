@@ -1,0 +1,219 @@
+@media screen and (min-width: 481px){
+    #menu{
+        float: left;
+       
+    }
+    #menu ul{
+    display: block;
+    }
+    #menu ul li{
+        float: left;
+    }
+    #menu ul li a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 15px 25px;
+    border: none;
+    line-height: 40px;
+    font-family: 'Chonburi', cursive;
+    font-size: 25px;
+    }
+    #menu ul li a:hover{
+        background-color: rgba(240, 130, 130, 0.55);
+    }
+    #ikona{
+        display: none;
+    }
+    .header{
+        height: 37rem;
+    }
+    .logo-slika{
+    position: absolute;
+    top: 5em;
+    left: 1em;
+        width: 90px;
+        height: 90px;
+}
+    .header h1 a{
+        padding: 10% 8%;
+        line-height: 25rem;
+        font-size: 2.2em;
+    }
+    .button{
+        margin: 1em 14em;
+    }
+    .span_4_of_12{
+        width: 27.33%;
+        margin: 3%;
+    }
+    .slastice h2{
+        font-size: 2.4em;
+        margin: 0em 0em 1.2em 0em;
+    }
+    .slastice h3{
+        font-size: 2.1em;
+    }
+    .slastice p{
+        font-size: 1.4em;
+    }
+    .span_5_of_12{
+        width: 50%;
+    }
+    .ns h2{
+        font-size: 2.4em;
+    }
+    .ns h3{
+        font-size: 1.7em;
+    }
+    .tiramisu{
+        padding: 10% 2%;
+    }
+    .tiramisu-recept{
+    padding: 0% 1%;
+}
+    .tiramisu-recept h3{
+        margin: 1em 0em;
+    }
+    .slastice p{
+        padding: 0em 4em;
+    }
+    .kako{
+    padding: 3%;
+}
+    .kako h3{
+        font-size: 2.7em;
+        margin: 1em 0 0 0;
+    }
+    .button2{
+        padding: .8em 1.3em;
+        margin-left: 14.5em;
+    }
+    .footer div{
+    padding: 1% 2%;
+        text-align: center;
+}
+    .footer .icon{
+    font-size: 2em;
+}
+    
+}
+@media screen and (min-width: 1025px){
+    #menu{
+        float: left;
+       
+    }
+    #menu ul{
+    display: block;
+    }
+    #menu ul li{
+        float: left;
+    }
+    #menu ul li a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 15px 25px;
+    border: none;
+    line-height: 40px;
+    font-family: 'Chonburi', cursive;
+    font-size: 25px;
+    }
+    #menu ul li a:hover{
+        background-color: rgba(240, 130, 130, 0.55);
+    }
+    .header h1 a{
+        padding: 1% 1%;
+        line-height: 10rem;
+        font-size: 2em;
+        box-decoration-break: 6px solid #fff;
+    }
+    #ikona{
+        display: none;
+    }
+    .header{
+        height: 48rem;
+    }
+    .header h1 a{
+        padding: 10% 5%;
+        line-height: 40rem;
+    }
+    .button{
+        margin: 0em 0.2em;
+        display: inline-block;
+        padding: .5em 0em;
+        width: 10.5em;
+    }
+    .span_4_of_12{
+        width: 29.33%;
+        margin: 1% 2%;
+    }
+    .ns h2{
+        font-size: 2.7em;
+    }
+    .ns h3{
+        font-size: 2em;
+    }
+    .ns h4{
+        font-size: 1.3em;
+        
+    }
+    .ns p{
+        font-size: 1.2em;
+        
+    }
+    .span_5_of_12{
+        width: 30.33%;
+        margin-left: 45px;
+    }
+    .recepti h2{
+        font-size: 3em;
+        height: .1em;
+        line-height: .1em;
+    }
+    .span_2_of_12{
+        width: 30.33%;
+    }
+    .tiramisu{
+        padding: 0% 2%;
+    }
+    .slastice p{
+        padding: 0em 10em;
+    }
+    .tiramisu{
+    padding: 5% 0%;
+}
+    .tiramisu-recept h3{
+        font-size: 2.1em;
+    }
+    .tiramisu-recept p{
+        font-size: 1.2em;
+    }
+    .kako{
+    padding: 1%;
+}
+    .kako h3{
+        font-size: 2.1em;
+        margin: 0em 0 0 0;
+    }
+    .kako img{
+    padding: 6%;
+    position: relative;
+}
+    .button2{
+        padding: .5em 1.3em;
+        margin-left: 6em;
+    }
+    .footer{
+    padding: 1% 0%;
+}
+    .footer div{
+    padding: 0% 2%;
+        text-align: center;
+}
+    .footer .icon{
+    font-size: 2em;
+}
+}
